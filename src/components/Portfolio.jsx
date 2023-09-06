@@ -7,12 +7,14 @@ export const Portfolio = () => {
     {
       id: 1,
       src: watchstore,
-      href:'https://watch-store-dvh.vercel.app/'
+      href1:'https://watch-store-dvh.vercel.app/',
+      href2:'https://github.com/HoangDVH/Watch-Shop'
     },
     {
       id: 2,
       src: portfolio,
-      href:'https://my-portfolio-six-fawn.vercel.app/'
+      href1:'https://portfolio-fawn-alpha-57.vercel.app/',
+      href2:'https://github.com/HoangDVH/Portfolio',
     },
 
   ];
@@ -30,7 +32,7 @@ export const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src,href }) => {
+          {portfolios.map(({ id, src,href1,href2 }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
@@ -40,10 +42,10 @@ export const Portfolio = () => {
                 />
                 <div className="flex justify-center items-center">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    <a href={href} alt='hinhanh'>Demo</a>
+                    <a href={href1} alt='hinhanh'>Demo</a>
                   </button>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
+                   <a href="href1" alt='hinhanh'>Code</a>
                   </button>
                 </div>
               </div>
