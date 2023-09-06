@@ -12,7 +12,7 @@ export const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} className="text-blue-700" />
         </>
       ),
-      href: "www.linkedin.com/in/đấu-vũ-hoàng-5a2929212",
+      href: "linkedin.com/in/đấu-vũ-hoàng-5a2929212",
       style: "rounded-tr-md",
     },
     {
