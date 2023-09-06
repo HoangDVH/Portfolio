@@ -45,7 +45,7 @@ export const Portfolio = () => {
                     <a href={href1} alt='hinhanh'>Demo</a>
                   </button>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                   <a href="href1" alt='hinhanh'>Code</a>
+                   <a href="href2" alt='hinhanh'>Code</a>
                   </button>
                 </div>
               </div>
