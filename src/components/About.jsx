@@ -21,11 +21,11 @@ export const About = () => {
 
         <br />
         <p className="text-xl">
-          Always eager to learn and improve, I am committed to delivering
-          beautiful, optimized, and user-friendly products. I look forward to
-          meeting and collaborating with like-minded individuals to explore
-          innovative solutions. Feel free to reach out to me for further
-          insights into my work and projects. Thank you!
+          I have programming experience through school projects and personal
+          projects. I look forward to meeting and collaborating with
+          like-minded individuals to explore innovative solutions. Feel free to
+          reach out to me for further insights into my work and projects. Thank
+          you!
         </p>
       </div>
     </div>
