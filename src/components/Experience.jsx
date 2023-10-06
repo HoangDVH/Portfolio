@@ -6,7 +6,7 @@ import react from "../assets/portfolio/react.png";
 import tailwind from "../assets/portfolio/tailwind.png";
 import bootstrap from "../assets/portfolio/bootstrap.png";
 import github from "../assets/portfolio/github.png";
-
+import typescript from '../assets/portfolio/typescript.png'
 
 
 export const Experience = () => {
@@ -52,6 +52,12 @@ export const Experience = () => {
         src: github,
         title: "Github",
         style: "shadow-gray-400",
+      },
+      {
+        id: 8,
+        src: typescript,
+        title: "Typescript",
+        style: "shadow-blue-800",
       },
   ];
   return (

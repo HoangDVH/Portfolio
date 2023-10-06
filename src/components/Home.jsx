@@ -15,9 +15,10 @@ export const Home = () => {
             I am a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am to become a proficient web developer, continously learning and
-            staying up-to-date with the lastest technologies and trends, and
-            contributing to an innovative team
+            I'm a dedicated Front-End Developer with a passion for crafting
+            seamless and engaging user experiences. I'm excited to contribute my
+            skills to create visually stunning and highly functional web
+            applications that leave a lasting impression.
           </p>
 
           <div>
