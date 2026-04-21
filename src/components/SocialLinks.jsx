@@ -45,17 +45,18 @@ export const SocialLinks = () => {
     },
   ];
   return (
-    <div className="hidden md:flex flex flex-col top-[35%] left-0 fixed">
+    <div className="fixed left-0 top-[35%] hidden flex-col md:flex">
       <ul>
         {links.map(({ id, child, href, style }) => (
           <li
             key={id}
-            className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] 
-          hover:rounded-md duration-300 bg-gray-500`}
+            className={`ml-[-112px] flex h-14 w-44 items-center justify-between bg-slate-700/90 px-4 text-slate-100 shadow-lg shadow-black/20 transition-all duration-300 hover:ml-[-10px] hover:bg-cyan-600 ${style || ""}`}
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              target="_blank"
+              rel="noreferrer"
+              className="flex w-full items-center justify-between"
             >
               {child}
             </a>

@@ -8,14 +8,14 @@ import { SocialLinks } from "./components/SocialLinks";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-950">
       <NavBar />
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <SocialLinks/>
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
+      <SocialLinks />
     </div>
   );
 }
